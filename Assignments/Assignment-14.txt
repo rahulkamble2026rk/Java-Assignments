@@ -1,0 +1,39 @@
+
+Q1.
+WAP to understand working of Tabbed Pane.
+
+Q2.
+WAP to understand working of 4 Dialog Boxes in swing.
+
+Q3.
+WAP to understand working of ToggleButton.
+
+Q5.
+Create a Tabbed Pane containing 5 tabs.Each tab will containf one of the following controls.
+WAP to understand JRadioButton,JCheckBox,JTextField,ComboBox and PasswordField.
+
+Q6.Create a login page containing JTextfield for username,PasswordField for password,JButton for 
+login button.Add a nice image on LoginPage.It should not contain title bar.Add a close button 
+containing close symbol.Use tooltip text where ever necessary.
+On successful login,open a homepage containing a Bordered Panel with message "WELCOME TO DATABASE APP".
+
+Q7.Create a small app with following options.
+-PRIME
+	-Check if given number is Prime or not.
+	-Find n th prime
+	-Print primes in given range.
+-Circle
+	-Area
+	Circumference
+-Rectangle
+	-Area
+	-Perimeter
+-LCM/GCD of given 2 numbers.
+Here mainframe should contain  a clock also which displays the current time containing hh::mm::ss.
+
+Q8.Create an application containing 3 JButtons for red,green and blue.
+Buttons background color must be according to color.On each button click color of label must change.
+Define your own action listener class and handle event of all buttons in single method.
+Use proper validations.Use dialog boxes where ever necessary.
+
+Q9.Create an application to create a Timer.Scan time as input from user.Start a timer which will run in reverse until time becomes 0.

@@ -1,0 +1,61 @@
+https://leetcode.com/submissions/detail/1338669544/
+id:88
+level:easy 
+
+https://leetcode.com/submissions/detail/1338743261/
+id:169
+level:easy
+
+https://leetcode.com/submissions/detail/1338619502/
+id:48
+level:medium 
+
+https://leetcode.com/submissions/detail/1338707304/
+id:74
+level:Medium 
+
+https://leetcode.com/submissions/detail/1338746497/
+id:229
+level:Medium 
+
+https://leetcode.com/submissions/detail/1338749226/
+id:287
+level:Medium 
+
+https://leetcode.com/submissions/detail/1338735748/
+id:493
+level:Hard 
+
+
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    void deleteNode(ListNode* node)  
+    {
+        ListNode * head=new ListNode(4);
+        ListNode *ref=head;
+        head->next=new ListNode(5);
+        head->next->next=new ListNode(1);
+        head->next->next->next=new ListNode(9);
+        int target=node->val; 
+        ListNode *qtr=ref; 
+        ListNode *ptr=qtr->next;
+        while(ptr!=NULL)
+        {
+            if(ptr->val==target) 
+            {
+                qtr->next=ptr->next;
+            }  
+            qtr=qtr->next;
+            ptr=ptr->next;
+        } 
+        ref=qtr;
+    }
+};

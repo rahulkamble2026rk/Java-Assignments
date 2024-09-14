@@ -1,0 +1,64 @@
+-Perform experiments.
+-read notebook to revise the concept in each question. 
+===============================================================================================
+Q1.Create a frame of 800px X 600px having title QUESTION1.Set grey background color.
+Write message "This is 'YourName'".
+Exactly below string draw a red colorfilled rectangle of 400px X 200px.
+Implement WindowClosing event using independant class and exit() method.
+
+Q2.Create a frame of 800px X 600px having title QUESTION2.
+Draw 3 rectangles on frame filled with red,green and blue colors.
+Implement WindowClosing event using independant class and dispose() method.
+
+Q4.Define a class Popcorn having taste() method.Define 3 objecs of Popcorn out of which
+two use default implementation.Third should be of salty taste.
+Use anonymous Inner class.
+
+Q5.Define an interface Popcorn having taste() method.Create 2 objects,one is of sweet taste
+and another must be of salty taste.
+Define a show() method.Define anonymous inner class at actual parameter list of show()
+to pass object as a parameter which is sweet in taste.
+
+Q6.Create 2 threads in main().Both set on same object.
+One thread will print 1 to 10 and another must print 11 to 20.
+
+Q7.WAP to find n th prime number.Your program must find n th prime for 3 different values of n.
+Write first program using mainthread only.Calculate total time taken to find n th prime number
+for 3 different values of n.Write second program in which you will start new thread to find 
+n th prime number.Calculate total time taken in seconds. 
+
+Q8.Create a frame of 800px X 600px having title QUESTION3.
+Draw 3 circles of width 400px,300px and 200 px one inside another.
+The innermost circle must be filled with blue color.
+Implement windowClosing event using Anonymous Inner class created by 
+inheriting class.
+
+Q9.Create 2 frames.Student and Teacher.Always start execution from Student.
+When you close Student,Teacher frame must open.
+When you close Teacher,Student frame must open.
+Stop execution by using ctrl+c or ctrl+z
+
+Q9.Create a frame of 800px X 600px having title QUESTION9.
+Define mouse listener class and check which event occurs when
+we click on frame.Implement window listener also to close window.
+
+Q10.Create a frame of 800px X 600px having title QUESTION10.
+Check working of getX() , getY() , getPoint() and getButton() method.
+
+Q11.Remember,to call paint() method we have to call repaint() method.
+Create a frame of 800px X 600px having title QUESTION11.
+On each click on your frame,print message "Hello Java at (co-ordinates of click)".
+(Simple OOP concepts must be used here)
+
+Q12.Create a frame of 800px X 600px having title QUESTION12.Define anonymous inner class
+to handle mouse events.When mouse enters frame,print message "MouseEntered" at
+(300,300) co-ordinate.When mouse exits frame,print message "MouseExited" at
+(400,400) co-ordinate.At a time only one message must be visible.
+
+Q13.Create a frame of 800px X 600px having title QUESTION12.
+Draw a circle exactly at the center of the frame.(getWidth() and getHeight() methods
+of class Frame can help you).Write anonymous inner class to define window closing event.
+Define independant class to implement MouseListener.On the left click 
+cirle colour must change to red,on right click circle color must change to blue.
+=========================================================================================
+Start completing previous assignment-10 if done with this.

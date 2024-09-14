@@ -1,0 +1,28 @@
+Q1.
+Create a button on frame.On button click,close your frame.
+Use ActionListener to handle event of button click.
+
+Q2.
+Create a combobox on frame containing 4 colors option(red,blue,green and black)..Draw a circle on frame.
+Change the color of circle according to selection in combobox.
+
+Q3.Create 3 checkboxes on you frame.WINDOWS,LINUX and MACOS.
+Create a lable.Label must display only selected operating systems.
+Use Panels also to make your design better.
+e.g. Ig you have selected WINDOWS and LINUX,then label must display
+"WINDOWS LINUX".
+
+Q4.Create a frame containing 3 textfields(FirstName,MiddleName,Age).
+FirstName and MiddleName textfields must allow alphabets only.
+Age textfield must allow numbers only.
+Then add a submit button.On clicking ubmit button,
+FirstName,MiddleName and Age must be displayed in TextArea.
+
+Q5.Create a TextField with label "InputMonth::".
+Add a SUBMIT button and a combobox.User will enter monthname in textfield.
+On clicking submit button,monthname in textField will get added in combobox.
+On the selection in Combobox,selected month should get displayed on a Label.
+Use Panels to make design better.
+
+Q6.Create a list of 6 different subjects.On a button click,display all selected subjects 
+in a textarea one below the other.

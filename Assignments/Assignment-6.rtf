@@ -1,0 +1,288 @@
+{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs22\lang9 Q1.Write programs for following questions.\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sl276\slmult1 Create a 2-D array of user defined dimensions.Print columnwise addition of array.\par
+{\pntext\f0 2.\tab}Scan 2 numbers from user.Store those number in two different arrays(one digit in one index).Perform addition of 2 numbers.\par
+{\pntext\f0 3.\tab}Write  a program to check working of private access specifier.(modifier).\par
+{\pntext\f0 4.\tab}WAP to understand the working of varargs method.Perform experiments.\par
+{\pntext\f0 5.\tab}Scan length and width of rectangle from user.Define functions to find area and perimeter of rectangle.Print both values in main() function.\par
+{\pntext\f0 6.\tab}Scan a number from user.Print addition of all digits in a number recursively.For example = if user input is 529.Output will be 16.(5+2+9)\par
+{\pntext\f0 7.\tab}WAP to understand different possibilities of import statement.Check all the rules we have seen during lecture.\par
+{\pntext\f0 8.\tab}Create an array of n integers.Print whole array with the addition of all elements in the array in the following form.Use functions wisely.                                                                                                            If array given is = 2,5,3,7,9 Then output is  = 2+5+3+7+9 = 26.\par
+{\pntext\f0 9.\tab}Declare and initialize an array of 8 integers. WAP to delete all occurences of a number from an array.Use functions.\par
+{\pntext\f0 10.\tab} Create jagged array where number of rows and number of columns is users choice. Scan all elements of array.Print all elements of array.Print their row-wise addition.\line Try to use for each loop.\par
+{\pntext\f0 11.\tab}WAP to understand abstract class.\par
+
+\pard\sl276\slmult1\lang1033 ==================================================================================\par
+Q2.Write programs for following questions.(Class and Object questions.)\par
+1.\tab class Number\lang9\par
+
+\pard\sl276\slmult1\lang1033\tab\{\par
+\tab\tab int x;\par
+\tab\tab int y;\par
+\tab\tab void show();\par
+\tab\tab static void print();\par
+\tab\}\par
+\tab class Program\par
+\tab\{\par
+\tab\tab public static void main(String args[])\par
+\tab\tab\{\par
+\tab\tab\}\par
+\tab\}\par
+\tab Use above class to understand the working of static and nonstatic members.\par
+
+\pard\sl276\slmult1\par
+\lang9 2.\par
+
+\pard\sl276\slmult1\tab\lang1033 class Number\lang9\par
+\lang1033\tab\{\par
+\tab\tab public int x;\par
+\tab\tab private int y;\par
+\tab\tab public void show();\par
+\tab\tab private static void print();\par
+
+\pard\sl276\slmult1\tab\}\par
+\tab class Digit\par
+\tab\{\par
+\tab\}\par
+\tab class Program\par
+\tab\{\par
+\tab\tab //main() method\par
+\tab\}\par
+\tab Use above 3 classes to check working of public private and default.Perform experiments and check the rules.\par
+\par
+3.\par
+\tab class Number\par
+\tab\{\par
+\tab\tab //use <default> for all.\par
+\tab\tab int x;\par
+\tab\tab static int y;\par
+\tab\tab void show();\par
+\tab\tab static void print();\par
+\tab\}\par
+\tab Write a program to access x and y inside show() and print().Understand the concept of static and nonstatic members.Define separate class for main() function..\par
+\par
+4.\par
+\tab A package structure is given below.Create it in your machine.\par
+\tab java24 --> Program.java, Demo.java, pack1\par
+\tab pack1  --> Demo.class\par
+\tab ----------------------------\par
+\tab Demo.java --> static void show(), void disp()\par
+\tab ----------------------------\par
+\tab Try to access show() and disp() functions inside Program.java main() method.\par
+\tab Use public,private and default for show() and disp() and check how does it work.\par
+5.\par
+\tab WAP to check working of this reference variable.\par
+==================================================================================\par
+Q3.Complete the following programs for given main() functions.Do not change given main() functions.Do not add your own functions.Use only given functions.\par
+1.\par
+\tab public class Number\tab\par
+\tab\{\par
+\tab\tab public int  x , y ;\par
+\tab\};\par
+\tab public class Program\par
+\tab\{\par
+\tab\tab p s v  main(String args[])\par
+\tab\tab\{\par
+\tab\tab\tab Number T1,T2;\par
+\tab\tab\tab T1 = new Number();\par
+
+\pard\sl276\slmult1\tab\tab\tab T2 = new Number();\par
+
+\pard\sl276\slmult1\tab\tab\tab T1.scan();\par
+\tab\tab\tab T2.scan();\par
+\tab\tab\tab T1.print();\par
+\tab\tab\tab T2.print();\par
+\tab\tab\}\par
+\tab\}\par
+\par
+2.\par
+\tab public class Number\tab\par
+\tab\{\par
+\tab\tab public\tab int  x , y ;\par
+\tab\};\par
+\tab public class Program\par
+\tab\{\par
+\tab\tab p s v main()\par
+\tab\tab\{\par
+\tab\tab\tab Number T1,T2;\par
+
+\pard\sl276\slmult1\tab\tab\tab T1 = new Number();\par
+
+\pard\sl276\slmult1\tab\tab\tab T2 = new Number();\par
+\tab\tab\tab T1 = scan();\par
+\tab\tab\tab T2 = scan();\par
+\tab\tab\tab print(T1);\par
+\tab\tab\tab print(T2);\par
+\tab\tab\}\par
+\tab\}\par
+\par
+3.\par
+\tab class Number\tab\par
+\tab\{\par
+\tab\tab public int x,y;\par
+\tab\};\par
+
+\pard\sl276\slmult1\tab public class Program\par
+\tab\{\par
+\tab\tab p s v main()\par
+\tab\tab\{\par
+\tab\tab\tab Number T1,T2;\par
+\tab\tab\tab T1 = new number();\par
+\tab\tab\tab T2 = new number();\par
+\tab\tab\tab Number.scan(T1);\par
+\tab\tab\tab scan(T2);\par
+\tab\tab\tab T1.print();\par
+\tab\tab\tab print(T2);\par
+\tab\tab\}\par
+\tab\}\par
+
+\pard\sl276\slmult1\par
+4.\par
+\tab class Student\tab\par
+\tab\{\par
+\tab\tab public  String name;\par
+\tab\tab public  int age;\par
+\tab\};\par
+
+\pard\sl276\slmult1\tab public class Program\par
+\tab\{\par
+\tab\tab p s v main()\par
+\tab\tab\{\par
+
+\pard\sl276\slmult1\tab\tab\tab Student T1,T2;\par
+\tab\tab\tab //scan and print data for T1 and T2 in main() only.\par
+\tab\tab\}\par
+\tab\}\par
+\par
+5.\par
+\tab class Number\tab\par
+\tab\{\par
+\tab\tab public int  x , y ;\par
+\tab\};\par
+
+\pard\sl276\slmult1\tab public class Program\par
+\tab\{\par
+\tab\tab p s v main()\par
+\tab\tab\{\par
+\tab\tab\tab Number T1,T2;\par
+\tab\tab\tab T1 = new Number();\par
+\tab\tab\tab T2 = new Number();\par
+\tab\tab\tab T1.scan();\par
+\tab\tab\tab T2.scan();\par
+\tab\tab\tab T3 = T1.add(T1,T2);\par
+\tab //Addition is to be done like T3.x will contain T1.x+T2.x.\par
+\tab //T3.y will contain T1.y+T2.y.\par
+\tab\tab\tab T3.print();\par
+\tab\tab\}\par
+\tab\}\par
+
+\pard\sl276\slmult1\par
+6.\par
+\tab class Number\tab\par
+\tab\{\par
+\tab\tab public int  x , y ;\par
+\tab\};\par
+\tab public class Program\par
+\tab\{\par
+\tab\tab p s v main()\par
+\tab\tab\{\par
+\tab\tab\tab Number T1,T2;\par
+
+\pard\sl276\slmult1\tab\tab\tab T1 = new Number();\par
+\tab\tab\tab T2 = new Number();\par
+
+\pard\sl276\slmult1\tab\tab\tab scan(T1);\par
+\tab\tab\tab T2 = Program.scan();\par
+\tab\tab\tab T3.add(T1,T2);\par
+\tab\tab\tab T3.print();\par
+\tab\tab\}\par
+\tab\}\par
+\par
+7.\par
+\tab class Base\par
+\tab\{\par
+\tab\tab private\tab int b;\par
+\tab\tab public void scanbase();\par
+\tab\tab public  int getbase();\par
+\tab\};\par
+\tab class Power\par
+\tab\{\par
+\tab\tab private\tab int p;\par
+\tab\tab public\tab void  scanpower();\par
+\tab\tab public\tab int getpower();\par
+\tab\}\par
+\tab public class Program\par
+\tab\{\par
+\tab\tab int main()\par
+\tab\tab\{\par
+\tab\tab\tab Base base;\par
+\tab\tab\tab Power power;\par
+\tab\tab\tab Program.calc(base,power);\par
+\tab\tab\}\tab\par
+\tab\}\par
+\par
+8.\par
+\tab class Number\tab\par
+\tab\{\par
+\tab\tab public  int x , y ;\par
+\tab\};\par
+\tab public class number\par
+\tab\{\par
+\tab\tab p s v main(String args[])\par
+\tab\tab\{\par
+\tab\tab\tab Number T1,T2;\par
+\tab\tab\tab Number.scan(T1);\par
+\tab\tab\tab Number.scan(T2);\par
+\tab\tab\tab Number.print(T1);\par
+\tab\tab\tab Number.print(T2);\par
+\tab\tab\}\par
+\tab\}\par
+\par
+\par
+9.\par
+\tab class Number\tab\par
+\tab\{\par
+\tab\tab public int  x , y ;\par
+\tab\};\par
+\tab class Digit\tab\par
+\tab\{\par
+\tab\};\par
+\tab public class Number\par
+\tab\{\par
+\tab\tab p s v main()\par
+\tab\tab\{\par
+\tab\tab\tab Number T1,T2;\par
+\tab\tab\tab Digit D;\par
+\tab\tab\tab D.scan(T1);\par
+\tab\tab\tab D.scan(T2);\par
+\tab\tab\tab D.print(T1,T2);\tab\tab\par
+\tab\tab\}\par
+\tab\}\par
+\par
+10.\par
+\tab public class Number\tab\par
+\tab\{\par
+\tab\tab public:\par
+\tab\tab\tab int x,y;\par
+\tab\};\par
+\tab public class Digit\tab\par
+\tab\{\par
+\tab\};\par
+\tab public class Number\par
+\tab\{\par
+\tab\tab public static void int main()\par
+\tab\tab\{\par
+\tab\tab\tab Number T1,T2;\par
+\tab\tab\tab Digit::scan(T1);\par
+\tab\tab\tab Digit::scan(T2);\par
+\tab\tab\tab print(T1);\par
+\tab\tab\tab Digit::print(T2);\par
+\tab\tab\}\par
+\tab\}\par
+==================================================================================\lang9\par
+}
+ 

@@ -1,0 +1,159 @@
+
+SET-1
+=====
+Q1.Write programs for following questions.
+
+1.Write a menu driven program for arithmetic operation of 2 integers.
+
+2.Write a menu driven program for arithmetic operation of 2 integers using value generating switch.
+
+3.Scan 3 character monthname from user.(JAN,FEB,MAR,APR etc).
+According to month,print the name of season.
+FEB to MAY - SUMMER
+JUN to SEP - MONSOON
+OCT to JAN - WINTER
+Write this program using switch case.
+
+4.Scan and print an array of 6 integers in main() only.
+
+5.Scan array of 6 characters in main().Count only uppercase alphabets in array.
+
+6.Write a menu driven program to find area and perimeter(or circumference) of shape chosen by user.
+For each shape ask user to choose area and perimeter or circumference.(nested switch and use of functions expected).
+
+7.Write a recursive program to find n!.
+
+8.Write a recursive program to find addition of digits in given number.
+
+9.Scan array of 8 integers from user.Find largest and smallest value from array.
+Use of functions expected.
+
+10.Declare and initialize an array of 8 integers.Scan x from user.
+Search x in array.If found,delete x.All occurrences of x should be deleted.
+
+11.Write a program to find n th prime number.Write 3 different codes for 3 differenct logics.
+i<num ; i<=num/2 ; i<=Math.sqrt(num)(import java.util.Math)
+Test your program for following values of n.
+n = 10000
+n = 25000
+n = 50000
+n = 75000
+n = 100000
+Note the time of execution.
+
+12.WAP to scan and print 1-D array of 6 integers using for each loop only.
+
+13.WAP to copy source array of 6 integers into target array using for each loop only.
+
+14.WAP to check all the possibilities of creation and initialization of a 2-D array.
+Perform experiments.
+
+15.WAP to print addition of 2 integers,addition of 3 integers,addition 2 fractions and addition 3 short values.
+================================================================================================================
+SET-2
+(In every program use of functions is expected)
+
+1.Create a 2-D array of 3X5.Scan its values from user.Print addition of only even elements in aray.
+
+2.Create a 2-D array of 3X5.Print row wise addition of elements in array.
+
+3.Create two 1-D arrays of n elements.Scan data for each aray from user.Store indexwise addition of squares
+of elements of both arrays in third array.Print third array.Example given below.
+input = 
+first array  =  2   4   7   3   2
+Second array =  3   4   2   2   3 
+==================================
+Result Array = 13  32  53  13  13
+
+4.Scan a 2-D array of mXn.Scan x from user.Check if x is present in the array or not.
+
+5.Create a 2-D array of 3X5.Scan and print this array using for each loop.
+
+6.Create a jagged aray of 4 rows containing 3,5,2,3 columns in each row respectively.
+Scan and print elements of array.
+
+7.Scan a number from user in integer variable.Now store this number in an array in such a way that
+each element of array contains one digit of number.
+Do this for 2 integers.Now perform addition of given 2 numbers using 2 arrays you have used 
+to store digits.Print the addition.
+
+8.Scan 10 integers from user.Store them in an array num in such a way that everytime you add element
+in array,array remains sorted in ascending order.
+
+9.Scan a number from user.Find its binary hexadecimal and octal value.
+Store these values in array and print those values.
+
+10.Scan a binary of 16 bits from user and store it an array.
+Convert this binary into decimal.
+If done with this,think about negative values.
+It means think if given binary is of positive number or negative number.
+
+11.Scan 2 matrices from user of mXn.(m is number of rows.n is number of columns,both are input from user)
+Perform their addition in third matrix.
+Print third matrix.
+
+12.Scan a matrix of mXn.Print its columnwise addition.
+example = 
+ 3  6  4
+ 2  6  9
+ 5  3  3
+===========
+10 15 16
+
+13.Scan an array of n integers.Your task is to find peak vaue in given array.
+Peak value is the value which is greater than or equal to its adjacent values.
+There can be multiple peak values in an array.Your task is to find any one of them.
+example
+int num[] = {12,5,8,16,4};
+Here peak values are 12 and 16.
+
+14.Scan a 2-D array of mXn.Find minimum and maximum values from array.
+
+15.WAP to sort the given array of n fraction values.
+
+16.WAP to reverse the given array of n integers.
+================================================================================================================
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

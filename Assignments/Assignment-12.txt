@@ -1,0 +1,41 @@
+Q1.
+Create a circle exactly at the center of frame.On left click,color of circle should become red.On right click color should become blue.
+
+Q2.Write a program to print all available fonts in java.Store them in a file.Use different fonts in your application.
+
+Q3.WAP to test each state of thread.
+
+Q4.WAP to check interthread communiaction using producer and consumer example.
+
+Q5.WAP to create a lable and a button.On button click,change text of label.
+
+Q6.Create 3 circles and 3 buttons(RED,BLUE,GREEN) on a frame.Color of all circles should change according to button you click.
+
+Q7.Create 3 frames.MainFrame,StudentInfo and TeacherInfo.Create 2 buttons on each frame.
+One is RED and one is BLUE.Background color of frame will change according to button click.
+Define common Window listener for all frames.Try to define common button creation functions in CommonFunction class.Use class and object concepts wisely.
+
+Q8.WAP to create 2 threads and get consistant output using isAlive() method.
+
+Q9.WAP to explain wait() and notify().
+
+Q10.WAP to create 3 threads as datamebers which will print 1 to 10, 11 to 20 and 21 to 30 in show() function.
+show() function must belong to some other class.Set all threads on their own object.
+
+Q11.WAP to check if mouse event can be applied on label or not.
+
+Q12.Create a frame of 800X600.Create a lable.Initial text on label should be "Advertise"
+Your task =
+When mouse enters the frame,text of label should change to "Welcome to Regal.It's time to go for ADS".
+When mouse leaves the frame,text of label should change to "Do not ignore Advanced Data Structure".
+
+Q13.WAP to understand working of MouseMotionListner on frame.Just is listener and you will come to know about it.
+
+Q14.WAP to create two buttons on frame.One is CHANGE and other is CLOSE.
+When you click CHANGE,it must change the background color of frame.Try to apply different colors on frame on each click.
+When you click CLOSE,frame should get closed.
+
+Install Netbeans IDE.Solve questions in video in netbeans.
+Note=
+To differentiate between buttons,you can compare button object with eventsource.
+So that you can use only one event listener for multiple buttons.

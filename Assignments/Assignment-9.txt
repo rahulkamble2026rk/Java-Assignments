@@ -1,0 +1,360 @@
+Q1.Print following pattern.
+
+1)
+123454321
+1234 4321
+123   321
+12     21
+1       1
+
+2)In the following pattern,number of rows is users choice.
+Pattern must contain digits between 0 to 9.
+0
+12
+345
+6789
+01234
+567890
+========================================================
+Q2.For given main() functions,define remaining program.
+
+1.
+class Number
+{
+	private int x,y;
+}
+class Demo
+{
+	public static void main(String args[])	
+	{
+		Number T1,T2;
+		T1 = Number.getNumber();//scans data for object T1
+		T2 = Number.getNumber();//scans data for object T1
+		T1.show();
+		T2.show();
+	}
+}
+
+2.Add T1 and T2 into T3
+
+class Number
+{
+	protected int x,y;
+};
+class Demo
+{
+	public static void main(String args[])
+	{
+		Number T1,T2,T3;
+		T1 = getNumber();
+		T2 = getNumber();
+		T3 = T1.add(T2);
+		T3.show();
+	}
+}
+
+3.Add T1 and T2 into T3.Do not change main() function.
+class Number
+{
+	private int x,y;
+};
+class Demo
+{
+	public static void main(String args[])
+	{
+		Number T1,T2,T3;
+		T1 = Number.getNumber();
+		T2 = Number.getNumber();
+		T3 = new Number();
+		T3 = T3.add(T1,T2);
+		T3.show();
+	}
+}
+
+3.Add T1 and T2 into T3.Do not change main() function.
+class Number
+{
+	private int x,y;
+};
+class Demo
+{
+	public static void main(String args[])
+	{
+		Number T1,T2,T3;
+		T3 = Demo.add(T1,T2);
+		T3.show();
+	}
+}
+
+4.Add T1 and T2 into T3.Do not change main() function.
+class Number
+{
+	int x,y;
+};
+class Demo
+{
+	public static void main(String args[])
+	{
+		Number T1,T2,T3;
+		T1 = Demo.getNumber();
+		T2 = Demo.getNumber();
+		T3 = add(T1,T2);
+		show(T3);
+	}
+}
+
+5.
+class Number
+{
+	int x,y;
+}
+class Digit
+{
+}
+class Demo
+{
+	public static void main(String args[])
+	{
+		Number T1,T2,T3;
+		T1 = Digit.getNumber();
+		T2 = Digit.getNumber();
+		T3 = Number.add(T1,T2);
+		Digit.show(T3);
+	}
+}
+
+6.
+class Base
+{
+	int base;
+}
+class Power
+{
+	int power;
+}
+class Demo
+{
+	public static void main(String args[])
+	{
+		Base baseobject;
+		Power powerobject;
+		int ans;
+		ans = Demo.calc(baseobject,powerobject);
+		System.out.println(ans);
+	}
+}
+
+7.
+class Number
+{
+	public int x,y;
+}
+
+class Digit
+{
+	int d;
+	Number obj;
+}
+class Demo
+{
+	p s v main(String args[])
+	{
+		//scan data for 2 objects of Digit.
+		//Do not add any member function in any class.
+	}
+}
+
+8.
+class Number
+{
+	private int x,y;
+	void getNumber();
+	void showNumber();
+}
+
+class Digit
+{
+	private int d;
+	private Number obj;
+	void getDigit();
+	void showDigit();
+}
+class Demo
+{
+	p s v main(String args[])
+	{
+		//scan data for 2 objects of Digit.
+		//Do not add any member function in any class.
+	}
+}
+===================================
+Q3.In following programs,always define independent class for main() function.
+Pass parameters to functions only if necessary.
+
+1.
+class Time
+{
+	int hour,min;
+	getTime(parameters); //scans data from user 
+	showTime(parameters);//displays data
+	convert(parameters); //converts time in total minutes
+	//Do not add your own member functions.
+}
+Scan 2 different times from user.Print their total minutes.
+
+2.
+class Time
+{
+	int hour,min;
+	static getTime(parameters); //scans data from user 
+	static showTime(parameters);//displays data
+	static convert(parameters); //converts time in total minutes
+	//Do not add your own member functions.
+}
+Scan 2 different times from user.Print their total minutes.
+
+3.
+class Time
+{
+	int hour,min;
+	static getTime(parameters); //scans data from user 
+	showTime(parameters);//displays data
+	static convert(parameters); //converts time in total minutes
+	//Do not add your own member functions.
+}
+Scan 3 times from user.Find the largest time.
+
+4.
+class Distance
+{
+	private km,mtr;
+	private getDistance(parameters);
+	public showDistance(parameters);
+	public totalMeters(parameters);
+};
+Scan 3 distances from user.Check if all three or any 2 of them are equal or not.
+
+5.
+class Distance
+{
+	int km,mtr;
+	private getDistance(parameters);
+	public showDistance(parameters);
+};
+Scan 2 distances from user.Compare them without converting them in total meters.
+
+6.
+class Distance
+{
+	int km,mtr;
+	//all constructors are private
+}
+Scan data for 3 objects and find the smallest distance.
+
+7.
+class City
+{
+	String cityname;
+	int population;
+}
+Scan data for 3 cities from user.Check if "pune" is present or not.
+
+8.
+class Number
+{
+	int num[];
+}
+class Demo
+{
+	p s v main(String args[])
+	{
+		
+	}
+}
+Create 3 objects of Number.Number of elements in each object of Number 
+should be user defined.Find the largest among all integers.
+Do not add any member function.Write whole code in main().
+
+9.
+class Number
+{
+	private int num[];
+	//your member functions
+}
+class Demo
+{
+	p s v main(String args[])
+	{
+		
+	}
+}
+Create 3 objects of Number.Number of elements in each object of Number 
+should be user defined.Find the largest among all integers.
+
+10.
+class Distance
+{
+	public int km,mtr;
+}
+Create a database of 6 distances.Sort hem in ascending order.
+Write whole code in main().
+Do not add any member function.
+
+11.
+class Distance
+{
+	private int km,mtr;
+	//Your member functions.
+}
+Create a database of 6 distances.Sort them in ascending order.
+Write whole code in main().
+
+12.
+Create an array of n integers.Implement following functions.
+Search a number in array.
+Delete a number from array.
+Sort array in ascending.
+Remove duplicates from array.
+(Use functions wisely)
+
+13.
+class Student
+{
+	private studentname;
+	private age;
+}
+Create a database of 6 students.Implement following options.
+-search student by name
+-delete student by name
+-sort students by name
+-display all the students
+
+14.
+class Employee
+{
+	name,age,address,birthdate
+	companyname,salary,joining date
+}
+Create a database of 8 employees.Implement following options.
+-search employee by name
+-print all those employee data belonging to same company
+-Print all employees born in a specific month.
+(Use of Composition and inheritance is expected)
+
+==============================================================
+Q3.Write programs for following questions.
+1.Define class vehicle containing start() and stop() method.
+Create 3 objects of Vehicle Jeep,Cycle and Plane.Implementation of both methods
+for cycle should be different.
+
+2.WAP to implement anonymous inner classes using interfaces.
+
+3.WAP to understand static control flow.
+
+4.WAP to implement singleton classes.(It is the class of which
+only one object can be created)
+
+5.WAP to explain iceland of isolation.
+
+6.WAP to understand working of super keyword.
+=============================================================

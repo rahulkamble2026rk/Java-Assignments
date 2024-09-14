@@ -1,0 +1,265 @@
+Q1.Write programs for following questions.
+1.	Create a 2-D array of user defined dimensions.Print columnwise addition of array.
+2.	Scan 2 numbers from user.Store those number in two different arrays(one digit in one index).Perform addition of 2 numbers.
+3.	Write  a program to check working of private access specifier.(modifier).
+4.	WAP to understand the working of varargs method.Perform experiments.
+5.	Scan length and width of rectangle from user.Define functions to find area and perimeter of rectangle.Print both values in main() function.
+6.	Scan a number from user.Print addition of all digits in a number recursively.For example = if user input is 529.Output will be 16.(5+2+9)
+7.	WAP to understand different possibilities of import statement.Check all the rules we have seen during lecture.
+8.	Create an array of n integers.Print whole array with the addition of all elements in the array in the following form.Use functions wisely.                                                                                                            If array given is = 2,5,3,7,9 Then output is  = 2+5+3+7+9 = 26.
+9.	Declare and initialize an array of 8 integers. WAP to delete all occurences of a number from an array.Use functions.
+10.	 Create jagged array where number of rows and number of columns is users choice. Scan all elements of array.Print all elements of array.Print their row-wise addition.
+Try to use for each loop.
+11.	WAP to understand abstract class.
+==================================================================================
+Q2.Write programs for following questions.(Class and Object questions.)
+1.	class Number
+	{
+		int x;
+		int y;
+		void show();
+		static void print();
+	}
+	class Program
+	{
+		public static void main(String args[])
+		{
+		}
+	}
+	Use above class to understand the working of static and nonstatic members.
+
+2.
+	class Number
+	{
+		public int x;
+		private int y;
+		public void show();
+		private static void print();
+	}
+	class Digit
+	{
+	}
+	class Program
+	{
+		//main() method
+	}
+	Use above 3 classes to check working of public private and default.Perform experiments and check the rules.
+
+3.
+	class Number
+	{
+		//use <default> for all.
+		int x;
+		static int y;
+		void show();
+		static void print();
+	}
+	Write a program to access x and y inside show() and print().Understand the concept of static and nonstatic members.Define separate class for main() function..
+
+4.
+	A package structure is given below.Create it in your machine.
+	java24 --> Program.java, Demo.java, pack1
+	pack1  --> Demo.class
+	----------------------------
+	Demo.java --> static void show(), void disp()
+	----------------------------
+	Try to access show() and disp() functions inside Program.java main() method.
+	Use public,private and default for show() and disp() and check how does it work.
+5.
+	WAP to check working of this reference variable.
+==================================================================================
+Q3.Complete the following programs for given main() functions.Do not change given main() functions.Do not add your own functions.Use only given functions.
+1.
+	public class Number	
+	{
+		public int  x , y ;
+	};
+	public class Program
+	{
+		p s v  main(String args[])
+		{
+			Number T1,T2;
+			T1 = new Number();
+			T2 = new Number();
+			T1.scan();
+			T2.scan();
+			T1.print();
+			T2.print();
+		}
+	}
+
+2.
+	public class Number	
+	{
+		public	int  x , y ;
+	};
+	public class Program
+	{
+		p s v main()
+		{
+			Number T1,T2;
+			T1 = new Number();
+			T2 = new Number();
+			T1 = scan();
+			T2 = scan();
+			print(T1);
+			print(T2);
+		}
+	}
+
+3.
+	class Number	
+	{
+		public int x,y;
+	};
+	public class Program
+	{
+		p s v main()
+		{
+			Number T1,T2;
+			T1 = new number();
+			T2 = new number();
+			Number.scan(T1);
+			scan(T2);
+			T1.print();
+			print(T2);
+		}
+	}
+
+4.
+	class Student	
+	{
+		public  String name;
+		public  int age;
+	};
+	public class Program
+	{
+		p s v main()
+		{
+			Student T1,T2;
+			//scan and print data for T1 and T2 in main() only.
+		}
+	}
+
+5.
+	class Number	
+	{
+		public int  x , y ;
+	};
+	public class Program
+	{
+		p s v main()
+		{
+			Number T1,T2;
+			T1 = new Number();
+			T2 = new Number();
+			T1.scan();
+			T2.scan();
+			T3 = T1.add(T1,T2);
+	//Addition is to be done like T3.x will contain T1.x+T2.x.
+	//T3.y will contain T1.y+T2.y.
+			T3.print();
+		}
+	}
+
+6.
+	class Number	
+	{
+		public int  x , y ;
+	};
+	public class Program
+	{
+		p s v main()
+		{
+			Number T1,T2;
+			T1 = new Number();
+			T2 = new Number();
+			scan(T1);
+			T2 = Program.scan();
+			T3.add(T1,T2);
+			T3.print();
+		}
+	}
+
+7.
+	class Base
+	{
+		private	int b;
+		public void scanbase();
+		public  int getbase();
+	};
+	class Power
+	{
+		private	int p;
+		public	void  scanpower();
+		public	int getpower();
+	}
+	public class Program
+	{
+		int main()
+		{
+			Base base;
+			Power power;
+			Program.calc(base,power);
+		}	
+	}
+
+8.
+	class Number	
+	{
+		public  int x , y ;
+	};
+	public class number
+	{
+		p s v main(String args[])
+		{
+			Number T1,T2;
+			Number.scan(T1);
+			Number.scan(T2);
+			Number.print(T1);
+			Number.print(T2);
+		}
+	}
+
+
+9.
+	class Number	
+	{
+		public int  x , y ;
+	};
+	class Digit	
+	{
+	};
+	public class Number
+	{
+		p s v main()
+		{
+			Number T1,T2;
+			Digit D;
+			D.scan(T1);
+			D.scan(T2);
+			D.print(T1,T2);		
+		}
+	}
+
+10.
+	public class Number	
+	{
+		public:
+			int x,y;
+	};
+	public class Digit	
+	{
+	};
+	public class Number
+	{
+		public static void int main()
+		{
+			Number T1,T2;
+			Digit::scan(T1);
+			Digit::scan(T2);
+			print(T1);
+			Digit::print(T2);
+		}
+	}
+==================================================================================

@@ -1,0 +1,53 @@
+Q1.Write programs for following questions.
+
+1.WAP to understand working of regular inner classes.
+
+2.WAP to understand working of method local inner classes. Perform some experiment.
+
+3.WAP to understand working of anonymous inner classes created from concrete classes.
+Perform some experiment.
+
+4.WAP to understand working of anonymous inner classes created from interfaces.
+Perform experiments.
+
+5.WAP to understand working of abstract keyword.
+
+6.WAP to understand working of protected keyword.
+
+7.WAP to understand working of garbage collector.
+Try to run garbage collector explicitly using both possible ways.
+
+8.WAP to understand working of finalize() method. Check the behaviour of JVM 
+when some object becomes available for garbage collection more than once.
+
+9.WAP to understand working of import.
+-check explicit import and implicit import.
+-Create package pkg1 containing package pkg2 containing class Myclass.
+Try to access MyClass in your package.
+-try to import class from different packages. Try to generate ambiguity error.
+Then solve that ambiguity error.
+
+10.WAP to understand working of static control flow and instance control flow.
+Perform some experiments. Check RIWO and R&W states.
+
+11.
+class Student
+{
+	name, age, marks
+}
+Create an array of 6 students. Sort this array in ascending order by age.
+
+12.Create an SLL. Implement following functions.
+-show()
+-addatbeg()
+-addatend()
+-delatbeg()
+-delatend()
+
+13.Create class Calculator. This class calculates arithmetic results of 2 integers,
+it can find out area and perimeter of rectangle, area and circumference of circle,
+it can find power of given number, lcm and gcd of 2 numbers.
+Implement all above functions using package concept. Group similar operations in 
+one package and call them from class Calculator.
+
+14.
